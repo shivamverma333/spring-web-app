@@ -87,31 +87,7 @@
 
   <build>
     <finalName>webapp</finalName>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.1.0</version>
-          <executions>
-                    <execution>
-                      <id>clean-jar-artifacts</id>
-                      <phase>install</phase>
-                      <goals><goal>clean</goal></goals>
-                      <configuration>
-                        <excludeDefaultDirectories>true</excludeDefaultDirectories>
-                        <filesets>
-                          <fileset>
-                              <directory>target</directory>
-                              <excludes>
-                                <exclude>*.war</exclude>
-                              </excludes>
-                          </fileset>
-                        </filesets>
-                      </configuration>
-                    </execution>
-                  </executions>
-        </plugin>
-        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
@@ -163,6 +139,5 @@
 			</plugin>
         
       </plugins>
-    </pluginManagement>
   </build>
 </project>
