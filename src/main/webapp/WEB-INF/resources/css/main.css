@@ -1,0 +1,306 @@
+  body{
+  	font-family:sans-serif;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin:5rem auto;
+    width:30%;
+  }
+  
+  .register .content-section{
+  	width:80%;
+  }
+  
+    .updateHawker .content-section{
+  	width:80%;
+  }
+  
+   .updateCustomer .content-section{
+  	width:80%;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link{
+  color:rgba(255,255,255,1);
+  }
+  
+  
+  .invalid-feedback{
+  display:block;
+  }
+  
+  .payment-button{
+  background:#17a2b8;
+  }
+ .payment-button:hover{
+  background:#17a2b8;
+  border-color:#17a2b8;
+  }
+ 
+
+  
+  .pqr{
+  	height:50%;
+  	width:50%;
+  }
+
+  
+  .card{
+  height:100%;
+  width:100%;
+  }
+  
+  
+  .row{
+  width:100%;
+  margin-left:0;
+  margin-right:0;
+  padding-left:0;
+  padding-right:0;
+  }
+
+.login{
+	background-color:#f5683d;
+}
+
+.register{
+	background-color:#f5683d;
+}
+
+.viewCustomerRequests .content-section{
+	width:100%;
+}
+
+.viewCustomerRequestDetails .content-section{
+	width:100%;
+}
+
+
+
+.login .form-container{
+	position:relative;
+	padding-top:70px;
+}
+
+.register .form-container{
+	position:relative;
+
+}
+
+.user-img{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:-40px;
+}
+
+
+
+
+
+.col-lg-4{
+	padding-right:1rem;
+	padding-left:1rem;
+	padding-top:1rem;
+	padding-bottom:1rem;
+	margin-left:0;
+	margin-right:0;
+	width:100%;
+	
+}
+
+.card-img-top{
+	height:60%;
+	width:60%;
+	margin:1rem auto;
+}
+  .card-class{
+    transition: all .2s ease-in-out;
+  }
+  
+   .card-class:hover{
+    transform: scale(1.1);
+  }
+ 
+  .jumbotron{
+   background-color: rgba(0,0,0,1);
+  }
+  
+  #services{
+  	font-family:sans-serif;
+  }
+  
+  .huckster{
+  font-weight:400;
+  font-family:cursive;
+  }
+  
+  .hucksterLogo{
+  	margin-top:0;
+  	padding-top:0;
+  	
+  	width:25rem;
+  	height:25rem;
+  }
+.xyz{
+	font-style:italic;
+}
+
+
+.viewCurrentHawkers #section{
+	background-color:#ffffff;
+}
+
+.viewAllCustomers #section{
+	background-color:#ffffff;
+}
+
+.viewAllHawkers #section{
+	background-color:#ffffff;
+}
+
+.viewRequestedHawkers #section{
+	background-color:#ffffff;
+}
+
+.viewCustomerRequests #section{
+	background-color:#ffffff;
+}
+
+.viewCurrentCustomers #section{
+	background-color:#ffffff;
+}
+.showSearchedHawkers #section{
+	background-color:#ffffff;
+	
+}
+
+.viewCurrentHawkerDetails .content-section{
+	width:100%;
+}
+
+.viewCurrentCustomerDetails .content-section{
+	width:100%;
+}
+
+.viewCurrentCustomerDetails #section{
+	background-color:#ffffff;
+}
+
+
+.hawkerSearch .content-section{
+	width:60%;
+	padding-top:0;
+	padding-left:0;
+	padding-right:0;
+}
+
+.showSearchedHawkers .content-section{
+	width:100%;
+}
+
+.hawkerSearch .form-group{
+	padding-left:1rem;
+	padding-right:1rem;
+}
+
+.hawkerDetailsPage .content-section{
+	width:100%;
+}
+
+.viewRequestedHawkers .content-section{
+	width:100%;
+}
+
+
+  
+  #section{
+  padding-top:3rem;
+  padding-bottom:3rem;
+  padding-left:5rem;
+  padding-right:5rem;
+  margin:5rem auto;
+  width:100%;
+  background-color:#e9ecef;
+  display:block;
+  }
+  
+  .search{
+  background-color:#343a40;
+  margin-top:0;
+  margin-left:0;
+  margin-right:0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left:1rem;
+  }
+  
+  
+  @media only screen and (max-width:1000px){
+  	.content-section{
+  		width:80%;
+  	}
+  	.hawkerSearch .content-section{
+	width:90%;
+}
+
+  .register .content-section{
+  	width:90%;
+  }
+  
+    .updateHawker .content-section{
+  	width:90%;
+  }
+  
+   .updateCustomer .content-section{
+  	width:90%;
+  }
+  
+  .viewCurrentHawkers #section{
+	padding-left:0;
+	padding-right:0;
+}
+
+.showSearchedHawkers #section{
+	padding-left:0;
+	padding-right:0;
+}
+
+.viewRequestedHawkers #section{
+	padding-left:0;
+	padding-right:0;
+}
+
+.viewCustomerRequests #section{
+	padding-left:0;
+	padding-right:0;
+}
+
+.viewCurrentCustomers #section{
+	padding-left:0;
+	padding-right:0;
+}
+
+.viewAllCustomers #section{
+	padding-left:0;
+	padding-right:0;
+}
+  
+#section{
+	padding-left:0;
+	padding-right:0;
+}
+    .hucksterLogo{
+  	margin-top:0;
+  	padding-top:0;
+  	
+  	width:20rem;
+  	height:20rem;
+  }
+
+  }
+
+  
